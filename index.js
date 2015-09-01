@@ -50,94 +50,95 @@ if (answer.toLowerCase() === 'yes') {
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('Would you use \"#pricing\", \"pricing\", \".pricing\" as a selector in your CSS if you were trying to target a class named \"pricing\"?');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === '.pricing') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('If you apply a style to an element in CSS but then apply an inline style to that element in the html file, which styling will win? CSS or inline?');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'inline') {
+	correct++
+	console.log('That\'s correct! But again, dont do this.');
+}
+else {
+	console.log('Sorry, that\'s incorrect.');
+}
+console.log('Can variables be used in CSS when working with SASS? Yes or no.');
+var answer = prompt();
+if (answer.toLowerCase() === 'yes') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('When using a media quary that specifies a \"max-width of 768px\", does this mean that its styles will be applies \'below\' or \'above\' 768px?');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'below') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('If you wanted an element to not be visable, but yet stay in the normal document flow, would you style it with \"display:none\" or \"visibility:hidden\"? You can answer none or hidden.');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'hidden') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('Once a value has been assigned to a variable, can it be changed? Yes or no.');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'yes') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('What would \"!true || false\" evaluate to?');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'false') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('Can a variable declared inside a function be used outside of the function? Yes or no.');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'no') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('If you declare a variable but don\'t assign it a value, what will it return when called? Null, undefined, or NaN?');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'undefined') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
+console.log('Are \"null\" and \"undefined\" javascript data types? Yes or no.');
 var answer = prompt();
-if (answer.toLowerCase() === '') {
+if (answer.toLowerCase() === 'yes') {
 	correct++
 	console.log('That\'s correct!');
 }
 else {
 	console.log('Sorry, that\'s incorrect.');
 }
-console.log('');
-var answer = prompt();
-if (answer.toLowerCase() === '') {
-	correct++
-	console.log('That\'s correct!');
-}
-else {
-	console.log('Sorry, that\'s incorrect.');
-}
+
 
